@@ -1,0 +1,18 @@
+﻿Build started 2016. 9. 21. 오전 1:17:59.
+     1>Project "C:\devel\hls_client\hls_client_debugerking\libcurl\libcurl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /D _MBCS /D CURL_STATICLIB /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt curl_test.cpp
+         curl_test.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\devel\hls_client\hls_client_debugerking\Release\libcurl.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib wldap32.lib libcurl.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\devel\hls_client\hls_client_debugerking\Release\libcurl.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\devel\hls_client\hls_client_debugerking\Release\libcurl.lib" /MACHINE:X86 /SAFESEH Release\curl_test.obj
+     1>curl_test.obj : error LNK2001: unresolved external symbol _curl_easy_setopt
+     1>curl_test.obj : error LNK2001: unresolved external symbol _curl_easy_perform
+     1>curl_test.obj : error LNK2001: unresolved external symbol _curl_easy_strerror
+     1>curl_test.obj : error LNK2001: unresolved external symbol _curl_easy_cleanup
+     1>curl_test.obj : error LNK2001: unresolved external symbol _curl_easy_init
+     1>C:\devel\hls_client\hls_client_debugerking\Release\libcurl.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\devel\hls_client\hls_client_debugerking\libcurl\libcurl.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.54

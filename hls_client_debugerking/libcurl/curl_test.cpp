@@ -1,6 +1,18 @@
-#include <curl/curl.h>
 #include <stdio.h>
 #include <string>
+#include <iostream>
+//#define CURL_STATICLIB
+#include <curl/curl.h>
+
+
+//#pragma commnet( lib, "wldap32.lib")
+//#pragma comment( lib, "ws2_32.lib")
+
+//#ifdef _DEBUG
+//#pragma comment( lib, "libcurld.lib")
+//#else
+//#pragma comment( lib, "libcurl.lib")
+//#endif
 
 int main(void)
 {
